@@ -1,1 +1,1 @@
-https://justin7213.github.io/Credit-Simulation/
+https://justin7213.github.io/Finance-Calculation/
