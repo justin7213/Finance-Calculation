@@ -89,7 +89,7 @@
             background-color: #4CAF50;
             color: white;
             border-radius: 50%;      
-            display: flex;
+            display: none;
             align-items: center;
             justify-content: center;
             font-size: 1.3rem;
@@ -163,7 +163,7 @@
 
         <div id="hasilSimulasi" style="margin-top: 20px; font-weight: bold;"></div>
 
-        <a href="creditpage.html" class="back-home" title="Kembali ke Beranda">
+        <a href="index.html" class="back-home" title="Kembali ke Beranda" id="home">
             <i class="fa-solid fa-house"></i>
         </a>
 
@@ -180,9 +180,11 @@
 
             if (jenis === 'kredit') {
                 document.getElementById('kreditForm').style.display = 'block';
+                document.getElementById('home').style.display = 'flex';
             } 
             else if (jenis === 'pinjaman') {
                 document.getElementById('pinjamanForm').style.display = 'block';
+                document.getElementById('home').style.display = 'flex';
             }
         }
 
